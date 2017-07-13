@@ -1,0 +1,1190 @@
+[
+  {
+    "angle": 0,
+    "filename": null
+  },
+  {
+    "angle": 0.5,
+    "filename": null
+  },
+  {
+    "angle": 1,
+    "filename": null
+  },
+  {
+    "angle": 1.5,
+    "filename": "00129.png",
+    "distortion": -0.3476102659945959
+  },
+  {
+    "angle": 2,
+    "filename": "00077.png",
+    "distortion": 0.106614154253726
+  },
+  {
+    "angle": 2.5,
+    "filename": null
+  },
+  {
+    "angle": 3,
+    "filename": null
+  },
+  {
+    "angle": 3.5,
+    "filename": "00130.png",
+    "distortion": -0.22131326474975976
+  },
+  {
+    "angle": 4,
+    "filename": "00037.png",
+    "distortion": 0.24827092947402463
+  },
+  {
+    "angle": 4.5,
+    "filename": "00078.png",
+    "distortion": 0.210846671180982
+  },
+  {
+    "angle": 5,
+    "filename": "00003.png",
+    "distortion": -0.11041756103122591
+  },
+  {
+    "angle": 5.5,
+    "filename": "00131.png",
+    "distortion": -0.07219780396379516
+  },
+  {
+    "angle": 6,
+    "filename": "00186.png",
+    "distortion": 0.3824194098731697
+  },
+  {
+    "angle": 6.5,
+    "filename": null
+  },
+  {
+    "angle": 7,
+    "filename": "00038.png",
+    "distortion": -0.00938425662124942
+  },
+  {
+    "angle": 7.5,
+    "filename": "00187.png",
+    "distortion": 0.02844082340762366
+  },
+  {
+    "angle": 8,
+    "filename": "00132.png",
+    "distortion": 0.1309244482094929
+  },
+  {
+    "angle": 8.5,
+    "filename": "00004.png",
+    "distortion": 0.17434966957316433
+  },
+  {
+    "angle": 9,
+    "filename": "00039.png",
+    "distortion": -0.3099401749860373
+  },
+  {
+    "angle": 9.5,
+    "filename": "00080.png",
+    "distortion": -0.04038180484263698
+  },
+  {
+    "angle": 10,
+    "filename": "00133.png",
+    "distortion": -0.22216863363612482
+  },
+  {
+    "angle": 10.5,
+    "filename": "00133.png",
+    "distortion": 0.2778313663638752
+  },
+  {
+    "angle": 11,
+    "filename": "00189.png",
+    "distortion": -0.21884228126882554
+  },
+  {
+    "angle": 11.5,
+    "filename": "00005.png",
+    "distortion": -0.08061918222811393
+  },
+  {
+    "angle": 12,
+    "filename": "00081.png",
+    "distortion": -0.061309457044501414
+  },
+  {
+    "angle": 12.5,
+    "filename": "00134.png",
+    "distortion": -0.07893523749305409
+  },
+  {
+    "angle": 13,
+    "filename": "00190.png",
+    "distortion": -0.24051991518720506
+  },
+  {
+    "angle": 13.5,
+    "filename": "00190.png",
+    "distortion": 0.25948008481279494
+  },
+  {
+    "angle": 14,
+    "filename": null
+  },
+  {
+    "angle": 14.5,
+    "filename": "00082.png",
+    "distortion": -0.00016676655256553374
+  },
+  {
+    "angle": 15,
+    "filename": "00135.png",
+    "distortion": 0.0685828218624458
+  },
+  {
+    "angle": 15.5,
+    "filename": "00006.png",
+    "distortion": 0.0007246234991633571
+  },
+  {
+    "angle": 16,
+    "filename": null
+  },
+  {
+    "angle": 16.5,
+    "filename": "00136.png",
+    "distortion": -0.3316687582415092
+  },
+  {
+    "angle": 17,
+    "filename": "00041.png",
+    "distortion": 0.03385189146381151
+  },
+  {
+    "angle": 17.5,
+    "filename": null
+  },
+  {
+    "angle": 18,
+    "filename": null
+  },
+  {
+    "angle": 18.5,
+    "filename": "00137.png",
+    "distortion": -0.37454975820332237
+  },
+  {
+    "angle": 19,
+    "filename": "00137.png",
+    "distortion": 0.12545024179667763
+  },
+  {
+    "angle": 19.5,
+    "filename": "00084.png",
+    "distortion": 0.006938088849004487
+  },
+  {
+    "angle": 20,
+    "filename": "00042.png",
+    "distortion": 0.3777438613491597
+  },
+  {
+    "angle": 20.5,
+    "filename": "00194.png",
+    "distortion": -0.0014258085662461895
+  },
+  {
+    "angle": 21,
+    "filename": "00138.png",
+    "distortion": -0.3706222693431833
+  },
+  {
+    "angle": 21.5,
+    "filename": "00138.png",
+    "distortion": 0.12937773065681668
+  },
+  {
+    "angle": 22,
+    "filename": "00085.png",
+    "distortion": -0.06789956241021855
+  },
+  {
+    "angle": 22.5,
+    "filename": "00195.png",
+    "distortion": 0.09459111663464981
+  },
+  {
+    "angle": 23,
+    "filename": "00043.png",
+    "distortion": -0.014754418789969748
+  },
+  {
+    "angle": 23.5,
+    "filename": "00139.png",
+    "distortion": 0.24077905447171233
+  },
+  {
+    "angle": 24,
+    "filename": "00196.png",
+    "distortion": -0.2492044104013793
+  },
+  {
+    "angle": 24.5,
+    "filename": "00086.png",
+    "distortion": -0.14166199955834102
+  },
+  {
+    "angle": 25,
+    "filename": "00086.png",
+    "distortion": 0.358338000441659
+  },
+  {
+    "angle": 25.5,
+    "filename": "00140.png",
+    "distortion": -0.02342450106801408
+  },
+  {
+    "angle": 26,
+    "filename": "00009.png",
+    "distortion": 0.057704510128328224
+  },
+  {
+    "angle": 26.5,
+    "filename": "00087.png",
+    "distortion": -0.2788404069551085
+  },
+  {
+    "angle": 27,
+    "filename": "00087.png",
+    "distortion": 0.22115959304489152
+  },
+  {
+    "angle": 27.5,
+    "filename": "00141.png",
+    "distortion": -0.1066778530879624
+  },
+  {
+    "angle": 28,
+    "filename": "00198.png",
+    "distortion": 0.17590361574674063
+  },
+  {
+    "angle": 28.5,
+    "filename": "00088.png",
+    "distortion": -0.4154243416267036
+  },
+  {
+    "angle": 29,
+    "filename": "00088.png",
+    "distortion": 0.08457565837329639
+  },
+  {
+    "angle": 29.5,
+    "filename": "00142.png",
+    "distortion": -0.18718163919369957
+  },
+  {
+    "angle": 30,
+    "filename": "00199.png",
+    "distortion": 0.08079131144249274
+  },
+  {
+    "angle": 30.5,
+    "filename": null
+  },
+  {
+    "angle": 31,
+    "filename": "00089.png",
+    "distortion": -0.29303899592019533
+  },
+  {
+    "angle": 31.5,
+    "filename": "00200.png",
+    "distortion": -0.10750224624889881
+  },
+  {
+    "angle": 32,
+    "filename": "00143.png",
+    "distortion": 0.24051991518720683
+  },
+  {
+    "angle": 32.5,
+    "filename": "00046.png",
+    "distortion": -0.15080229659556466
+  },
+  {
+    "angle": 33,
+    "filename": "00011.png",
+    "distortion": -0.043415756850869514
+  },
+  {
+    "angle": 33.5,
+    "filename": "00090.png",
+    "distortion": -0.19006752597978505
+  },
+  {
+    "angle": 34,
+    "filename": "00144.png",
+    "distortion": -0.07719528013073784
+  },
+  {
+    "angle": 34.5,
+    "filename": "00144.png",
+    "distortion": 0.42280471986926216
+  },
+  {
+    "angle": 35,
+    "filename": "00202.png",
+    "distortion": 0.007979801441337031
+  },
+  {
+    "angle": 35.5,
+    "filename": "00047.png",
+    "distortion": -0.1470207499067513
+  },
+  {
+    "angle": 36,
+    "filename": "00091.png",
+    "distortion": -0.09828396710800291
+  },
+  {
+    "angle": 36.5,
+    "filename": "00145.png",
+    "distortion": 0.09591143692097148
+  },
+  {
+    "angle": 37,
+    "filename": "00203.png",
+    "distortion": 0.3176492441063985
+  },
+  {
+    "angle": 37.5,
+    "filename": null
+  },
+  {
+    "angle": 38,
+    "filename": null
+  },
+  {
+    "angle": 38.5,
+    "filename": "00092.png",
+    "distortion": -0.009228365524322157
+  },
+  {
+    "angle": 39,
+    "filename": "00048.png",
+    "distortion": -0.02567671351937406
+  },
+  {
+    "angle": 39.5,
+    "filename": "00013.png",
+    "distortion": 0.11220322932486937
+  },
+  {
+    "angle": 40,
+    "filename": "00205.png",
+    "distortion": 0.01311375503581047
+  },
+  {
+    "angle": 40.5,
+    "filename": "00093.png",
+    "distortion": -0.10129464500447227
+  },
+  {
+    "angle": 41,
+    "filename": "00147.png",
+    "distortion": -0.05481377096243989
+  },
+  {
+    "angle": 41.5,
+    "filename": "00147.png",
+    "distortion": 0.4451862290375601
+  },
+  {
+    "angle": 42,
+    "filename": "00206.png",
+    "distortion": -0.0219793480502517
+  },
+  {
+    "angle": 42.5,
+    "filename": "00148.png",
+    "distortion": -0.20938995736147348
+  },
+  {
+    "angle": 43,
+    "filename": "00148.png",
+    "distortion": 0.2906100426385265
+  },
+  {
+    "angle": 43.5,
+    "filename": "00207.png",
+    "distortion": -0.16778014613036163
+  },
+  {
+    "angle": 44,
+    "filename": "00014.png",
+    "distortion": 0.31691240579326063
+  },
+  {
+    "angle": 44.5,
+    "filename": "00149.png",
+    "distortion": -0.16881421158461762
+  },
+  {
+    "angle": 45,
+    "filename": "00050.png",
+    "distortion": 0
+  },
+  {
+    "angle": 45.5,
+    "filename": "00050.png",
+    "distortion": 0.5
+  },
+  {
+    "angle": 46,
+    "filename": "00095.png",
+    "distortion": -0.01697803071917292
+  },
+  {
+    "angle": 46.5,
+    "filename": "00015.png",
+    "distortion": -0.47493401088198084
+  },
+  {
+    "angle": 47,
+    "filename": "00209.png",
+    "distortion": 0.0021201435233209054
+  },
+  {
+    "angle": 47.5,
+    "filename": "00150.png",
+    "distortion": 0.18293761412867582
+  },
+  {
+    "angle": 48,
+    "filename": "00210.png",
+    "distortion": -0.012787504183343401
+  },
+  {
+    "angle": 48.5,
+    "filename": "00096.png",
+    "distortion": 0.45162505970170486
+  },
+  {
+    "angle": 49,
+    "filename": null
+  },
+  {
+    "angle": 49.5,
+    "filename": "00151.png",
+    "distortion": -0.10009566626327882
+  },
+  {
+    "angle": 50,
+    "filename": "00211.png",
+    "distortion": 0.04455105994775721
+  },
+  {
+    "angle": 50.5,
+    "filename": "00016.png",
+    "distortion": 0.1854543300552507
+  },
+  {
+    "angle": 51,
+    "filename": "00212.png",
+    "distortion": -0.04409216224110679
+  },
+  {
+    "angle": 51.5,
+    "filename": "00152.png",
+    "distortion": -0.4211176384350068
+  },
+  {
+    "angle": 52,
+    "filename": "00152.png",
+    "distortion": 0.07888236156499318
+  },
+  {
+    "angle": 52.5,
+    "filename": "00098.png",
+    "distortion": -0.049421768263279375
+  },
+  {
+    "angle": 53,
+    "filename": "00213.png",
+    "distortion": -0.3176492441064056
+  },
+  {
+    "angle": 53.5,
+    "filename": "00213.png",
+    "distortion": 0.1823507558935944
+  },
+  {
+    "angle": 54,
+    "filename": "00053.png",
+    "distortion": -0.07705380092944836
+  },
+  {
+    "angle": 54.5,
+    "filename": "00053.png",
+    "distortion": 0.42294619907055164
+  },
+  {
+    "angle": 55,
+    "filename": "00099.png",
+    "distortion": -0.24408744645862868
+  },
+  {
+    "angle": 55.5,
+    "filename": "00215.png",
+    "distortion": -0.016046384544793568
+  },
+  {
+    "angle": 56,
+    "filename": "00154.png",
+    "distortion": -0.30993247402021495
+  },
+  {
+    "angle": 56.5,
+    "filename": "00154.png",
+    "distortion": 0.19006752597978505
+  },
+  {
+    "angle": 57,
+    "filename": "00018.png",
+    "distortion": 0.04341575685086241
+  },
+  {
+    "angle": 57.5,
+    "filename": "00216.png",
+    "distortion": 0.007524422638908845
+  },
+  {
+    "angle": 58,
+    "filename": "00155.png",
+    "distortion": -0.3924977537511012
+  },
+  {
+    "angle": 58.5,
+    "filename": "00217.png",
+    "distortion": -0.0479389880004959
+  },
+  {
+    "angle": 59,
+    "filename": "00217.png",
+    "distortion": 0.4520610119995041
+  },
+  {
+    "angle": 59.5,
+    "filename": "00101.png",
+    "distortion": -0.034455080540126914
+  },
+  {
+    "angle": 60,
+    "filename": "00218.png",
+    "distortion": -0.25511870305778217
+  },
+  {
+    "angle": 60.5,
+    "filename": "00156.png",
+    "distortion": 0.011498557090313
+  },
+  {
+    "angle": 61,
+    "filename": "00019.png",
+    "distortion": 0.28142706105901993
+  },
+  {
+    "angle": 61.5,
+    "filename": "00219.png",
+    "distortion": 0.18614757373943291
+  },
+  {
+    "angle": 62,
+    "filename": "00102.png",
+    "distortion": 0.0724869358529574
+  },
+  {
+    "angle": 62.5,
+    "filename": "00157.png",
+    "distortion": -0.09242456218159134
+  },
+  {
+    "angle": 63,
+    "filename": "00157.png",
+    "distortion": 0.40757543781840866
+  },
+  {
+    "angle": 63.5,
+    "filename": "00056.png",
+    "distortion": 0.06505117707799002
+  },
+  {
+    "angle": 64,
+    "filename": "00103.png",
+    "distortion": -0.08111442895358323
+  },
+  {
+    "angle": 64.5,
+    "filename": "00020.png",
+    "distortion": 0.004139486813755866
+  },
+  {
+    "angle": 65,
+    "filename": "00158.png",
+    "distortion": 0.3013786254197157
+  },
+  {
+    "angle": 65.5,
+    "filename": "00222.png",
+    "distortion": -0.05604521958346709
+  },
+  {
+    "angle": 66,
+    "filename": "00104.png",
+    "distortion": -0.03751102542182139
+  },
+  {
+    "angle": 66.5,
+    "filename": "00223.png",
+    "distortion": -0.1147789427862449
+  },
+  {
+    "angle": 67,
+    "filename": "00159.png",
+    "distortion": 0.1985905136481847
+  },
+  {
+    "angle": 67.5,
+    "filename": "00021.png",
+    "distortion": -0.17134362198085284
+  },
+  {
+    "angle": 68,
+    "filename": "00105.png",
+    "distortion": -0.1985905136481847
+  },
+  {
+    "angle": 68.5,
+    "filename": "00224.png",
+    "distortion": -0.05226367289465372
+  },
+  {
+    "angle": 69,
+    "filename": "00225.png",
+    "distortion": 0.0032227114342475716
+  },
+  {
+    "angle": 69.5,
+    "filename": "00058.png",
+    "distortion": 0.1661234309532631
+  },
+  {
+    "angle": 70,
+    "filename": "00106.png",
+    "distortion": -0.3461759419466972
+  },
+  {
+    "angle": 70.5,
+    "filename": "00106.png",
+    "distortion": 0.1538240580533028
+  },
+  {
+    "angle": 71,
+    "filename": "00022.png",
+    "distortion": 0.02560603756867863
+  },
+  {
+    "angle": 71.5,
+    "filename": "00161.png",
+    "distortion": 0.23336164291688988
+  },
+  {
+    "angle": 72,
+    "filename": "00227.png",
+    "distortion": -0.1649850573319469
+  },
+  {
+    "angle": 72.5,
+    "filename": "00059.png",
+    "distortion": -0.11761111877208918
+  },
+  {
+    "angle": 73,
+    "filename": "00228.png",
+    "distortion": -0.0724869358529503
+  },
+  {
+    "angle": 73.5,
+    "filename": "00162.png",
+    "distortion": -0.1639571102815438
+  },
+  {
+    "angle": 74,
+    "filename": "00162.png",
+    "distortion": 0.3360428897184562
+  },
+  {
+    "angle": 74.5,
+    "filename": "00229.png",
+    "distortion": -0.07783868126132631
+  },
+  {
+    "angle": 75,
+    "filename": "00060.png",
+    "distortion": -0.03784474567345342
+  },
+  {
+    "angle": 75.5,
+    "filename": "00230.png",
+    "distortion": 0.0001667665525673101
+  },
+  {
+    "angle": 76,
+    "filename": "00108.png",
+    "distortion": 0.1534125878514061
+  },
+  {
+    "angle": 76.5,
+    "filename": "00231.png",
+    "distortion": -0.04131539138498397
+  },
+  {
+    "angle": 77,
+    "filename": "00231.png",
+    "distortion": 0.45868460861501603
+  },
+  {
+    "angle": 77.5,
+    "filename": "00109.png",
+    "distortion": -0.23522627210759595
+  },
+  {
+    "angle": 78,
+    "filename": "00232.png",
+    "distortion": -0.03794860233377051
+  },
+  {
+    "angle": 78.5,
+    "filename": "00061.png",
+    "distortion": -0.0034369824142288508
+  },
+  {
+    "angle": 79,
+    "filename": "00024.png",
+    "distortion": 0.4024942343890814
+  },
+  {
+    "angle": 79.5,
+    "filename": "00110.png",
+    "distortion": -0.238625282765625
+  },
+  {
+    "angle": 80,
+    "filename": "00110.png",
+    "distortion": 0.261374717234375
+  },
+  {
+    "angle": 80.5,
+    "filename": "00165.png",
+    "distortion": -0.0376777919743887
+  },
+  {
+    "angle": 81,
+    "filename": "00235.png",
+    "distortion": -0.3986151412851058
+  },
+  {
+    "angle": 81.5,
+    "filename": "00235.png",
+    "distortion": 0.10138485871489422
+  },
+  {
+    "angle": 82,
+    "filename": "00111.png",
+    "distortion": 0.33744443884673103
+  },
+  {
+    "angle": 82.5,
+    "filename": "00166.png",
+    "distortion": 0.03260140094735675
+  },
+  {
+    "angle": 83,
+    "filename": null
+  },
+  {
+    "angle": 83.5,
+    "filename": "00237.png",
+    "distortion": -0.31706983405173617
+  },
+  {
+    "angle": 84,
+    "filename": "00112.png",
+    "distortion": -0.09385888622949778
+  },
+  {
+    "angle": 84.5,
+    "filename": "00167.png",
+    "distortion": 0.11758059012682054
+  },
+  {
+    "angle": 85,
+    "filename": null
+  },
+  {
+    "angle": 85.5,
+    "filename": "00239.png",
+    "distortion": -0.24616356388081329
+  },
+  {
+    "angle": 86,
+    "filename": "00113.png",
+    "distortion": -0.12147549715230355
+  },
+  {
+    "angle": 86.5,
+    "filename": "00168.png",
+    "distortion": -0.21613771209364074
+  },
+  {
+    "angle": 87,
+    "filename": "00168.png",
+    "distortion": 0.28386228790635926
+  },
+  {
+    "angle": 87.5,
+    "filename": "00064.png",
+    "distortion": -0.13375200854420655
+  },
+  {
+    "angle": 88,
+    "filename": "00242.png",
+    "distortion": -0.10661415425373377
+  },
+  {
+    "angle": 88.5,
+    "filename": "00114.png",
+    "distortion": -0.04364136566032073
+  },
+  {
+    "angle": 89,
+    "filename": "00169.png",
+    "distortion": -0.060809054264424844
+  },
+  {
+    "angle": 89.5,
+    "filename": "00169.png",
+    "distortion": 0.43919094573557516
+  },
+  {
+    "angle": 90,
+    "filename": "00243.png",
+    "distortion": 0
+  },
+  {
+    "angle": 90.5,
+    "filename": "00115.png",
+    "distortion": 0.014454169991864774
+  },
+  {
+    "angle": 91,
+    "filename": "00244.png",
+    "distortion": 0.05304855322653168
+  },
+  {
+    "angle": 91.5,
+    "filename": "00245.png",
+    "distortion": 0.079734453600949
+  },
+  {
+    "angle": 92,
+    "filename": "00246.png",
+    "distortion": 0.10661415425371956
+  },
+  {
+    "angle": 92.5,
+    "filename": "00116.png",
+    "distortion": 0.07366416839764156
+  },
+  {
+    "angle": 93,
+    "filename": "00247.png",
+    "distortion": -0.3109415146114429
+  },
+  {
+    "angle": 93.5,
+    "filename": "00247.png",
+    "distortion": 0.18905848538855707
+  },
+  {
+    "angle": 94,
+    "filename": "00248.png",
+    "distortion": 0.2173545534036947
+  },
+  {
+    "angle": 94.5,
+    "filename": "00249.png",
+    "distortion": -0.22445169717087765
+  },
+  {
+    "angle": 95,
+    "filename": "00117.png",
+    "distortion": 0.15599962491931763
+  },
+  {
+    "angle": 95.5,
+    "filename": "00172.png",
+    "distortion": -0.11758059012683475
+  },
+  {
+    "angle": 96,
+    "filename": "00067.png",
+    "distortion": 0.28940686250035697
+  },
+  {
+    "angle": 96.5,
+    "filename": "00251.png",
+    "distortion": -0.1544250460065939
+  },
+  {
+    "angle": 97,
+    "filename": "00118.png",
+    "distortion": -0.24450685244119086
+  },
+  {
+    "angle": 97.5,
+    "filename": "00173.png",
+    "distortion": -0.03260140094737096
+  },
+  {
+    "angle": 98,
+    "filename": "00253.png",
+    "distortion": -0.13010235415598004
+  },
+  {
+    "angle": 98.5,
+    "filename": "00253.png",
+    "distortion": 0.36989764584401996
+  },
+  {
+    "angle": 99,
+    "filename": "00254.png",
+    "distortion": -0.07149757717716909
+  },
+  {
+    "angle": 99.5,
+    "filename": "00030.png",
+    "distortion": 0.037677791974374486
+  },
+  {
+    "angle": 100,
+    "filename": "00255.png",
+    "distortion": 0.45961819515736124
+  },
+  {
+    "angle": 100.5,
+    "filename": "00256.png",
+    "distortion": 0.02576517177418225
+  },
+  {
+    "angle": 101,
+    "filename": "00069.png",
+    "distortion": -0.029531223980484356
+  },
+  {
+    "angle": 101.5,
+    "filename": "00257.png",
+    "distortion": 0.0034369824142288508
+  },
+  {
+    "angle": 102,
+    "filename": "00175.png",
+    "distortion": 0.1356095487188611
+  },
+  {
+    "angle": 102.5,
+    "filename": "00031.png",
+    "distortion": -0.2834539414243693
+  },
+  {
+    "angle": 103,
+    "filename": "00259.png",
+    "distortion": 0.00538320808350079
+  },
+  {
+    "angle": 103.5,
+    "filename": "00260.png",
+    "distortion": 0.04131539138498397
+  },
+  {
+    "angle": 104,
+    "filename": "00070.png",
+    "distortion": 0.07903963507924061
+  },
+  {
+    "angle": 104.5,
+    "filename": "00121.png",
+    "distortion": 0.3465874121485939
+  },
+  {
+    "angle": 105,
+    "filename": "00262.png",
+    "distortion": 0.03784474567345342
+  },
+  {
+    "angle": 105.5,
+    "filename": "00263.png",
+    "distortion": 0.07783868126132631
+  },
+  {
+    "angle": 106,
+    "filename": "00122.png",
+    "distortion": -0.14433878028349056
+  },
+  {
+    "angle": 106.5,
+    "filename": "00032.png",
+    "distortion": -0.15430637692332994
+  },
+  {
+    "angle": 107,
+    "filename": "00071.png",
+    "distortion": 0.0724869358529503
+  },
+  {
+    "angle": 107.5,
+    "filename": "00267.png",
+    "distortion": -0.3350149426680673
+  },
+  {
+    "angle": 108,
+    "filename": "00268.png",
+    "distortion": 0.018570303035957636
+  },
+  {
+    "angle": 108.5,
+    "filename": "00178.png",
+    "distortion": -0.2333616429169041
+  },
+  {
+    "angle": 109,
+    "filename": "00269.png",
+    "distortion": 0.11391263029069876
+  },
+  {
+    "angle": 109.5,
+    "filename": "00271.png",
+    "distortion": 0.006938088848997381
+  },
+  {
+    "angle": 110,
+    "filename": "00033.png",
+    "distortion": -0.06307266608824591
+  },
+  {
+    "angle": 110.5,
+    "filename": "00272.png",
+    "distortion": -0.05604521958346709
+  },
+  {
+    "angle": 111,
+    "filename": "00124.png",
+    "distortion": 0.2744411344394564
+  },
+  {
+    "angle": 111.5,
+    "filename": "00073.png",
+    "distortion": -0.21393508177644094
+  },
+  {
+    "angle": 112,
+    "filename": "00277.png",
+    "distortion": -0.06789956241021855
+  },
+  {
+    "angle": 112.5,
+    "filename": "00180.png",
+    "distortion": 0.09459111663464626
+  },
+  {
+    "angle": 113,
+    "filename": "00278.png",
+    "distortion": 0.051062719076725216
+  },
+  {
+    "angle": 113.5,
+    "filename": "00281.png",
+    "distortion": 0.1147789427862449
+  },
+  {
+    "angle": 114,
+    "filename": "00283.png",
+    "distortion": -0.010799063899611383
+  },
+  {
+    "angle": 114.5,
+    "filename": "00000.png",
+    "distortion": -0.10512391795161591
+  },
+  {
+    "angle": 115,
+    "filename": "00074.png",
+    "distortion": 0.125846085872368
+  },
+  {
+    "angle": 115.5,
+    "filename": "00126.png",
+    "distortion": 0.015873009582705322
+  },
+  {
+    "angle": 116,
+    "filename": "00294.png",
+    "distortion": 0.2743873566343211
+  },
+  {
+    "angle": 116.5,
+    "filename": "00317.png",
+    "distortion": -0.06505117707799002
+  },
+  {
+    "angle": 117,
+    "filename": "00305.png",
+    "distortion": 0.012109418251512238
+  },
+  {
+    "angle": 117.5,
+    "filename": "00001.png",
+    "distortion": 0.07664929289049383
+  },
+  {
+    "angle": 118,
+    "filename": null
+  },
+  {
+    "angle": 118.5,
+    "filename": "00183.png",
+    "distortion": -0.3724241740401766
+  },
+  {
+    "angle": 119,
+    "filename": "00183.png",
+    "distortion": 0.12757582595982342
+  },
+  {
+    "angle": 119.5,
+    "filename": "00076.png",
+    "distortion": -0.011498557090320105
+  },
+  {
+    "angle": 120,
+    "filename": "00128.png",
+    "distortion": 0.19524852681988136
+  }
+]
