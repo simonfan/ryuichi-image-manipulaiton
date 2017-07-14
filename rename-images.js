@@ -3,7 +3,7 @@ const path = require('path');
 
 const leftPad = require('left-pad');
 
-const SOURCE_DIR = path.join(__dirname, 'source-images');
+const SOURCE_DIR = path.join(__dirname, 'SAKAMOTO');
 const DEST_DIR   = path.join(__dirname, 'dest-images');
 
 var sourceItems = fs.readdirSync(SOURCE_DIR);
@@ -15,7 +15,7 @@ sourceItems.forEach((item, index) => {
   var readStream = fs.createReadStream(path.join(SOURCE_DIR, item));
 
   readStream.pipe(fs.createWriteStream(
-    path.join(DEST_DIR, leftPad(index, 5, '0') + '.png')
+    path.join(DEST_DIR, leftPad(index + 1, 5, '0') + '.png')
   ));
 
 });
