@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bezier-easing": "^2.0.3",
     "bluebird": "^3.5.0",
     "fluent-ffmpeg": "^2.1.2",
     "knuth-shuffle": "^1.0.1",
