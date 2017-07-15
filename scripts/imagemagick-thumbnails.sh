@@ -1,0 +1,1 @@
+magick 'SAKAMOTO/*.png' -resize 600x -grayscale Average -set filename:t '%t' 'SAKAMOTO_thumbnails/%[filename:t].png'

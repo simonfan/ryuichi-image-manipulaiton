@@ -1,167 +1,76 @@
 // native
 const fs   = require('fs');
 const path = require('path');
+const child_process = require('child_process');
 
-const SOURCE_IMAGES_DIR = path.join(__dirname, '../SAKAMOTO');
+// third-party
+const mkdirp  = require('mkdirp');
+const leftPad = require('left-pad');
+const ffmpeg  = require('fluent-ffmpeg');
+const rimraf  = require('rimraf');
 
+// internal
 const shuffle = require('../lib/shuffle');
 
-// function randomInteger(conditions) {
-//   var max = conditions.max;
-//   var notWithin = conditions.notWithin;
+// constants
+const SOURCE_IMAGES_DIR = path.join(__dirname, '../SAKAMOTO');
+const DEST_IMAGES_DIR   = path.join(__dirname, 'test-7-mongean');
 
-//   var candidate = Math.round(Math.random() * max);
+const FFMPEG_COMMAND = `ffmpeg -framerate 24 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4`;
 
-//   if (notWithin) {
-//     while (candidate >= notWithin[0] && candidate <= notWithin[1]) {
-//       candidate = Math.round(Math.random() * max);
-//     }
-//   }
+rimraf.sync(DEST_IMAGES_DIR);
+mkdirp.sync(DEST_IMAGES_DIR + '/images');
 
-//   return candidate;
-// }
-
-// function randomItem(arr) {
-//   var index = randomInteger(arr.length);
-
-//   return arr[index];
-// }
-
-function createArray(length, item) {
-  var arr = [];
-
-  item = item || null;
-
-  while (arr.length < length) {
-    arr.push(item);
-  }
-
-  return arr;
-}
-
-// function switchGroups(arr, groupSize) {
-//   arr = arr.slice(0);
-
-//   groupSize = groupSize || 1;
-
-//   if (groupSize > arr.length / 2) {
-//     // for the switch groups alg to work, the array must have at 
-//     throw new Error(`groupSize '${groupSize}' too large for array length '${arr.length}'`);
-//   }
-// }
+var sourceImages = fs.readdirSync(SOURCE_IMAGES_DIR);
+var images = sourceImages
+              .concat(sourceImages)
+              .concat(sourceImages)
+              .concat(sourceImages); // 4 rotations
 
 
-// function shuffleArray(arr, options) {
-//   arr = arr.slice(0);
+var SHUFFLE_STRATEGY = [
+  'mongean',
+];
 
-//   options = options || {};
+var shuffledImages = shuffle(images, SHUFFLE_STRATEGY);
 
-//   var rounds    = options.rounds || 1;
-//   var groupSize = options.groupSize || 1;
+console.log('total frames', shuffledImages.length);
 
-//   if (groupSize > arr.length) {
-//     throw new Error(`groupSize '${groupSize}' too large for array length '${arr.length}'`);
-//   }
-
-//   var newArr = createArray(arr.length);
-
-//   var indexA;
-//   var indexB;
-//   var shuffledGroup;
-//   var lastNullPosition = 0;
-//   // var arrB;
-
-//   while (rounds) {
-//     indexA = randomInteger({
-//       max: arr.length - groupSize,
-//     });
-
-//     indexB = randomInteger({
-//       max: arr.length - groupSize,
-//       // notWithin: [indexA, indexA + groupSize],
-//     });
-
-//     // remove the shuffledGroup from the source array
-//     shuffledGroup = arr.splice(indexA, indexA + groupSize);
-    
-//     // move items from the shuffledGroup to the new array
-//     shuffledGroup.forEach((item, index) => {
-//       newArr[indexB + index] = item;
-//     });
-
-//     // move remaining items in order to null positions in the new array
-//     arr.forEach((item, index) => {
-
-//     });
-
-//     // replace stuff in array using splice
-//     arr.splice.apply(arr, [indexA, arrB.length].concat(arrB));
-//     console.log('indexA', indexA)
-//     console.log('indexB', indexB)
-//     console.log('AFTER SPLICE: ', arr.length)
-
-//     arr.splice.apply(arr, [indexB, arrA.length].concat(arrA));
-
-//     rounds--;
-//   }
-
-//   return arr;
-// }
-
-
-
-
-
-
-var images = fs.readdirSync(SOURCE_IMAGES_DIR);
-
-var shuffledImages;
-// shuffledImages = shuffle.riffle(images);
-// shuffledImages = shuffle.overhand(images, {
-//   rounds: 3,
-// });
-// shuffledImages = shuffle(images, [
-//   // 'overhand',
-//   // 'overhand',
-//   // 'riffle',
-//   // 'riffle',
-//   // {
-//   //   type: 'overhand',
-//   //   rounds: 7,
-//   // },
-//   'pile',
-//   'pile',
-//   // 'riffle',
-// ]);
-
-
-// MONGEAN TEST
-// shuffledImages = shuffle(images.slice(0, 52), createArray(12, 'mongean'))
-
-// FARO TEST
-shuffledImages = shuffle(images.slice(0, 52), createArray(26, 'faro'))
-
-
-// var shuffledImages = shuffleArray(images, {
-//   rounds: 1,
-//   groupSize: 90,
-// });
-
-// shuffledImages = shuffledImages.map((img, index) => {
-//   if (img !== images[index]) {
-//     return path.parse(img).name + '-shuffled' + path.parse(img).ext;
-//   } else {
-//     return img;
-//   }
-// })
-
-console.log(shuffledImages.length);
-
-// console.log(images);
-
+// register data about the shuffle experiment
 fs.writeFileSync(
-  path.join(__dirname, 'shuffled-images.json'),
-  JSON.stringify(shuffledImages, null, '  '),
+  path.join(DEST_IMAGES_DIR, 'data.json'),
+  JSON.stringify({
+    images: shuffledImages,
+    strategy: SHUFFLE_STRATEGY,
+    totalFrames: shuffledImages.length,
+  }, null, '  '),
   'utf8'
 );
 
+var copyImagesPromise = Promise.all(shuffledImages.map((image, index) => {
+  return new Promise((resolve, reject) => {
+
+    var read = fs.createReadStream(path.join(SOURCE_IMAGES_DIR, image));
+    var write = fs.createWriteStream(path.join(
+      DEST_IMAGES_DIR,
+      'images',
+      leftPad(index, 5, '0') + '-' + image)
+    );
+
+    read.pipe(write);
+
+    write
+      .on('finish', function () {
+        resolve();
+      })
+      .on('error', reject);
+  });
+}));
+
+copyImagesPromise.then(() => {
+  console.log('copied');
+  // child_process.exec(`ffmpeg -framerate 24 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4`)
+})
+.catch((err) => {
+  console.warn('error', err);
+});
